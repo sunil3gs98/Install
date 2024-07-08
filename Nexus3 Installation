@@ -1,8 +1,8 @@
 
 1.sudo apt install openjdk-8-jdk -y
-2.wget https://download.sonatype.com/nexus/3/latest-unix.tar.gz
-3.tar -xf latest-unix.tar.gz
-4.chmod +x nexus
+2.sudo wget https://download.sonatype.com/nexus/3/latest-unix.tar.gz
+3.sudo tar -xf latest-unix.tar.gz
+4.sudo chmod +x nexus
 5. ./nexus start
 ---------------------------------------------Docker Nexus3 Image-------------------------------------------------------------------------------------
 docker run -d --name nexus -p 8081:8081 sonatype/nexus3
